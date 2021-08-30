@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- Favicon -->
+    <link href="argon-dashboard-master/assets/img/brand/favicon.png" rel="icon" type="image/png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="argon-dashboard-master/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+    <link href="argon-dashboard-master/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Argon CSS -->
+    <link type="text/css" href="argon-dashboard-master/assets/css/argon.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Frontend assesment</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-horizontal navbar-expand-lg navbar-dark bg-primary">
+        <div class="container" style="padding-left: 0rem;">
+            <a class="navbar-brand" style="font-size: 2rem;" href="#"><em>CLIENT TABLE</em></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-default">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="javascript:void(0)">
+                                <img src="../../assets/img/brand/blue.png">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://github.com/aditya22nair">
+                            <i class="fab fa-github"></i>
+                            <span class="nav-link-inner--text">Github</span>
+                          </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="#">
+                            <i class="ni ni-notification-70"></i>
+                            <span class="nav-link-inner--text d-lg-none">Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-icon" href="#" id="navbar-default_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="ni ni-settings-gear-65"></i>
+                            <span class="nav-link-inner--text d-lg-none">Settings</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbar-default_dropdown_1">
+                            <a class="dropdown-item" href="#">log in</a>
+                            <a class="dropdown-item" href="#">about</a>
+                           
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <u><h1 class="display-4" style="margin:3rem 2rem;">details of clients are as follows</h1></u>
+    <div class="table-responsive">
+    
+
+        <div>
+            <table class="table align-items-center">
+                <thead class="thead-light align-items-center">
+                    <tr>
+                        <th scope="col" class="sort align-items-center" data-sort="name" style="font-size: 1.5rem;">NAME</th>
+                        <th scope="col" class="sort" data-sort="budget"  style="font-size: 1.5rem;">COMPANY</th>
+                        
+                    </tr>
+                </thead>
+                <tbody class="list">
+
+                    <tr >
+                        <td id='name1'style="font-size: large;font-weight: bold;margin: left 10px;"></td>
+                        <td id='company1'style="font-size: large;font-weight: bold"></td>
+                    </tr>
+
+                    <tr>
+                        <td id='name2'style="font-size: large;font-weight: bold"></td>
+                        <td id='company2'style="font-size: large;font-weight: bold"></td>
+                    </tr>
+
+                    <tr>
+                        <td id='name3'style="font-size: large;font-weight: bold"></td>
+                        <td id='company3'style="font-size: large;font-weight: bold"></td>
+                    </tr>
+                    
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+        
+     </div>
+
+
+    
+    
+
+
+    <script src="index.js"></script>
+    <!-- Core -->
+    <script src="argon-dashboard-master/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="argon-dashboard-master/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Argon JS -->
+    <script src="argon-dashboard-master/assets/js/argon.min.js"></script>
+</body>
+
+</html>
